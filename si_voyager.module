@@ -1,0 +1,17 @@
+<?php
+
+
+/**
+ * Implements hook_theme().
+ */
+function si_3d_viewer_theme() {
+	return [
+		'voyager' => [
+			'variables' => [
+				'uri' => '',
+				'document' => '',
+				'embed' => '',
+			],
+		],
+	];
+}

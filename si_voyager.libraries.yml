@@ -1,0 +1,14 @@
+voyager:
+  version: 1.x
+  # Add css file.
+  css:
+    component:
+      https://3d-api.si.edu/resources/fonts/fonts.css: { type: external, minified: true }
+      https://3d-api.si.edu/resources/css/voyager-explorer.min.css: { type: external, minified: true }
+      voyager.css: {}
+  # Add js files.
+  js:
+    https://code.jquery.com/pep/0.4.3/pep.min.js: { type: external, minified: true }
+    https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js: { type: external, minified: true }
+    https://3d-api.si.edu/resources/js/voyager-explorer.min.js: { type: external, minified: true, scope: footer }
+

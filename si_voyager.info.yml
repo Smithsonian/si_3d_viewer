@@ -1,0 +1,10 @@
+name: SI Voyager
+type: module
+description: Create link or json field for embedding or hosting SI Voyager.
+package: 'Smithsonian Institution'
+core: 8.x
+dependencies:
+  - drupal:field
+
+version: '8.x-1.0'
+project: 'si_3d_viewer'
